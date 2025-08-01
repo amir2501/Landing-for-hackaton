@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Birga – Events, Community, Investment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        :root {
+            --bg: #fff8e8;
+            --accent: #FFA238;
+            --text: #342f23;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        header img {
+            width: 120px;
+            margin-bottom: 1rem;
+            border-radius: 20px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        section {
+            margin-bottom: 3.5rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style: disc;
+            margin-left: 1.5rem;
+        }
+
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .screenshots img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .screenshots img:hover {
+            transform: scale(1.02);
+        }
+
+        .team {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .team-member {
+            background-color: #ffffffbb;
+            padding: 1rem 1.2rem;
+            border-left: 5px solid var(--accent);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .team-member strong {
+            font-size: 1.1rem;
+            display: block;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.95rem;
+            margin-top: 4rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <header>
+        <img src="birga.png" alt="Birga Logo">
+        <h1>Birga</h1>
+        <p>Where Events, Community, and Investment Meet</p>
+    </header>
+
+    <section>
+        <h2>What is Birga?</h2>
+        <p><strong>Birga</strong> is a modern mobile app that combines event planning, community engagement, and crowdfunding into one elegant experience — like Telegram, Google Calendar, and startup investing, all in one app.</p>
+        <p>Create diverse events: emergencies, birthdays, weddings, or corporate parties. Each event includes:</p>
+        <ul>
+            <li>📍 Location + calendar integration</li>
+            <li>🍽️ Food and supplies list</li>
+            <li>⚠️ Warnings like “Cake may not be safe for people with high blood sugar”</li>
+            <li>🧠 Event intelligence for clarity and trust</li>
+        </ul>
+        <p>Everything syncs with your device’s native calendar for smooth daily planning.</p>
+    </section>
+
+    <section>
+        <h2>Platform Support</h2>
+        <p>Birga is being built natively for both <strong>iOS</strong> and <strong>Android</strong>, delivering a smooth and seamless experience on all devices.</p>
+    </section>
+
+    <section>
+        <h2>App Screens</h2>
+        <div class="screenshots">
+            <div>
+                <strong>🏠 Home</strong>
+                <img src="HomeView.png" alt="Home View Screenshot">
+            </div>
+            <div>
+                <strong>💰 Invest</strong>
+                <img src="Invest.png" alt="Invest Screenshot">
+            </div>
+            <div>
+                <strong>👤 Profile</strong>
+                <img src="Profile.png" alt="Profile Screenshot">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Our Vision</h2>
+        <p>We believe in clean, warm, and calming design. Birga’s friendly interface is carefully crafted to promote trust and simplicity — not overload users with complexity.</p>
+    </section>
+
+    <section>
+        <h2>Meet the Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <strong>Amir Erkinov</strong>
+                Full-stack Developer
+            </div>
+            <div class="team-member">
+                <strong>Zukhrakhon Abdurasulova</strong>
+                Backend Developer & Project Manager
+            </div>
+            <div class="team-member">
+                <strong>Farangiz Sultonova</strong>
+                Project Management & Operations
+            </div>
+        </div>
+    </section>
+
+    <section>
+<!--        <h2>Contact</h2>-->
+<!--        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>-->
+<!--        <p>Telegram: <a href="https://t.me/yourusername">@yourusername</a></p>-->
+    </section>
+
+    <footer>
+        &copy; 2025 Birga. All rights reserved.
+    </footer>
+
+</div>
+</body>
+</html>
